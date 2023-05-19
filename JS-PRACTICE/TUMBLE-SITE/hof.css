@@ -1,0 +1,102 @@
+.title{
+    color: rgb(40, 35, 23);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 5px 3px 0px rgb(229, 202, 134);;
+}
+.container{
+    margin: 20px;
+    background-color: rgb(229, 202, 134);
+    border-radius: 20px;
+}
+.sub-btn1{
+  text-align: center;
+  margin-left: 450px;
+  margin-right: 20px;
+}
+.sub-btn1, .sub-btn2{
+    margin-top: 30px;
+}
+@media screen and (max-width: 600px) {
+    .container {
+      height: 200px;
+    }
+    .sub-btn1{
+        margin-left: 85px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+    }
+   
+  }
+
+
+  #msg {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 200px;
+    font-size: 17px;
+  }
+  
+  #msg.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {center: 0; opacity: 0;} 
+    to {center: 200px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {center: 0; opacity: 0;}
+    to {center: 200px; opacity: 1;}
+  }
+
+  .table{
+    margin-top: 50px !important;
+    text-align: center;
+    margin: auto;
+    width: 70% !important; 
+    background-color:  rgb(229, 202, 134);;
+  }
+  th,td{
+    text-align: center !important;
+    padding: 15px !important;
+  }
+  tr:only-child:hover{
+    background-color:  rgb(229, 202, 134);;
+  }
+ tr:hover{
+    background-color: goldenrod;
+ }
+  
+/*hidden form style*/
+/* The popup form - hidden by default */
+
+  
+@media screen and (max-width: 600px) {
+    .btn-primary{
+        
+        margin-bottom: 10px !important;
+        
+    }
+   
+  }
+  
+  .dark-mode {
+    background-color: rgb(22, 19, 46);
+    color: white;
+  }
+  
+  
+ 

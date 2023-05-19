@@ -1,0 +1,11 @@
+It is very unusual to having 100% success from a model. Obviously, it is due to small training and test dataset. I have tested my own emails using the model. It turned out that it is not as effective as my existing paid spam filter.  It makes sense. There are many ways we can improve the model. If the model trains with sufficient data, it will deliver more accurate results.
+
+
+step 1: downloading dataset from kaggle
+step 2:importing the dependencies [pandas-to create dataframe, numpy-to create array, train_test_split used to split our data into training n testing, TfidfVectorizer: used to convert text dat(mail data) into numerical value so our machine learning model can understand it, LogisticRegression: used to classify mails into spam mail or ham mail, accuracy score- used to know how well our model is predicting ]
+step 3:
+ 
+1)fitting all our training data into vectorizer
+2)following this it will transform all the x_train data into feature vectors
+which are nothing but numnerical values
+

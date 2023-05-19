@@ -1,0 +1,57 @@
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container, .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+ .bot-pic{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-right: 500px;
+ }
+ .bot-pic2{
+    margin-left: -100px;
+    width: 390px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+ }
+
+  .text {
+    margin-left: 100px;
+    font-size: 20px;
+    padding-left: 100px;
+  }
+  .curio-04{
+    width: 850px;
+    height: 450px;
+
+  }
+  .final-bot{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;;
+    border: 2px solid black;
+    margin-bottom: 20px;
+  }
+
+  .flex-box{
+    display: flex;;
+    justify-content: center;
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p>HOME</p>
+        </div>
+        <div>
+            <p>GUEST</p>
+        </div>
+    </div>
+
+    <div class="down">
+        <div>
+            <p id="home-score">0</p>
+        </div>
+        <div>
+            <p id="guest-score">0</p>
+        </div>
+    </div>
+
+    <div class="btns">
+      <button id="home-one" onclick="addOne()">+1</button>
+      <button id="home-three" onclick="addThree()">+3</button>
+      <button id="home-five" onclick="addFive()">+5</button>
+        
+      <button id="reset" onclick="reset()">RESET</button>
+
+      <button id="guest-one" onclick="addone()">+1</button>
+      <button id="guest-three" onclick="addthree()">+3</button>
+      <button id="guest-five" onclick="addfive()">+5</button>
+
+    </div>
+
+    <script src="score.js"></script>
+
+
+
+   
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+TEXT SHADOW :
+
+text-shadow: 5px 5px blur black;
+
+1st value: how much right of the text it should show(horizontal)
+2nd value: how much top or bottom it must show(vertical)
+3rd value: color of the shadow
+for 1st value:
++ -> right side
+- -> left side shadow will come
+for 2ns value:
++ -> down side
+- -> up side shadow will come
+
+if blue is 0px shadow edges will be sharp. If blue is more than 0 shadown
+edges will be soft
+
+flex-box properties::
+*justify-content : deals with horizontal axis
+*align-items: deals with vertical axis
+ background: linear-gradient(#14463d, #016a26);
+flex-direction: column -> will stack elements on top of each other
+if we use flex-direction then the working of justify-content and 
+align-items switch
+
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+https://www.w3schools.com/howto/howto_js_popup_form.asp

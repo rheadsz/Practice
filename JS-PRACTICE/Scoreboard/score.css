@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;;
+    max-width: 80%;
+    background-color: rgb(7, 33, 72);
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;;
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;;
+    max-width: 80%;
+    background-color: rgb(7, 33, 72);
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 60px;;
+}
+#home-score{
+    background-color: black;
+    border: 2px solid red;
+    width: 100px;
+    text-align: center;
+}
+#guest-score{
+    background-color: black;
+    border: 2px solid red;
+    width: 100px;
+    text-align: center;
+}
+
+.btns{
+    margin-top: 0px;;
+    max-width: 80%;
+    background-color: rgb(7, 33, 72);
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+
+button{
+    margin-left: 80px;;
+    margin-bottom: 20px;
+}

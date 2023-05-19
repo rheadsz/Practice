@@ -1,0 +1,38 @@
+				
+						JAVASCRIPT:
+
+ARRAYS:
+	PUSH -> WILL ADD AN ELEMENT TO THE END OF THE LIST (ARRAYNAME.PUSH(NUMBER))
+	POP  -> WILL REMOVE AN ELEMENT FROM THE END OF THE LIST (ARRAYNAME.POP())
+	SHIFT->	WILL ADD AN ELEMENT TO THE START OF THE LIST (ARRAYNAME.SHIFT(NUMBER))
+	UNSHIFT -> WILL REMOVE AN ELEMENT FROM THE START OF THE LIST (ARRAYNAME.UNSHIFT)
+
+OBJECTS:
+	TO CREATE AN OBJECT OF PERSON:
+		var person = {
+			name: "Rhea",
+			age: 21,
+			hobbies: ["music","exercising","series"],
+			greet: function(){
+				console.log("Hi Rhea");
+				}
+			}
+
+	TO ACCESS THE ITEMS:
+		person.name = gives Rhea
+		person.age = gives 21
+		person.hobbies = returns all hobbies
+		person.hobbies[index] = returns the hobby at that index
+		person.greet() = returns HI Rhea
+
+
+ADD EVENT LISTENER:
+	
+	IT IS AN ALTERNATIVE TO ONCLICK().
+	Ex:
+		var myBox = document.getElementById("box");
+		myBox.addEventListener("click", function(){
+    		console.log("I want to open the box!");
+		})
+
+19 yet to be done

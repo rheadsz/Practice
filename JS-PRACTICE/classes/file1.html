@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASSES PRACTICE</title>
+
+ <script type="text/javascript">
+   
+
+    class Rectangle{
+        constructor(length,breadth,colour){
+            this.length = length;
+            this.breadth = breadth;
+            this.colour = colour;
+        }
+        
+        getArea(){
+            return this.length*this.breadth;
+        }
+        displayinfo(){
+            console.log(`I am a rectangle of ${this.length} * ${this.breadth}`);
+        }
+    }
+    
+    
+        let rect1 = new Rectangle(3,4,"blue");
+
+
+        console.log(rect1.getArea());
+        rect1.displayinfo();
+            
+        
+
+ </script>   
+</head>
+
+<body>
+    <div>
+        <button type="text" id="length"></button>
+        <button type="text" id="breadth">
+        <button type="text" id="colour">
+        <br><br>
+        <br>
+        <button id="submit" onclick="display()">SUBMIT</button>
+    </div>
+    
+</body>
+</html>

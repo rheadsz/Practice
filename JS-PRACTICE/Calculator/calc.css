@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+.conatiner{
+    margin: auto;
+    max-width: 80%;
+    background-color: rgb(174, 198, 198);
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    align-items: center;
+    margin: 5px;;
+}
+span{
+    font-size: 30px;;
+    border-bottom: 2px solid black;
+    padding: 4px;
+    color: black;
+}
+
+#sum-el{
+    font-size: 30px;;
+}

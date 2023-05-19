@@ -1,0 +1,164 @@
+body{
+    margin: 30px !important;
+}
+
+.hof{
+    
+    margin-left: 750px;
+}
+.checked {
+  color: orange;
+  
+}
+.rating{
+  margin-left: 700px;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px !important;
+    font-weight: bold !important;
+    font-size: 35px !important;
+    color: rgb(41, 37, 27);
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 5px 3px 0px rgb(229, 202, 134);;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 20%;
+    height: 40%;
+    padding: 20px;
+    margin-left: 50px;
+}
+#cmg-soon{
+  width: 30%;
+  height: 40%;
+  padding: 20px;
+  margin-left: 50px;
+
+}
+.content{
+    margin-left: 50px;
+}
+.container-1, .container-2,.container{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(226, 226, 221);
+}
+.dark-mode {
+    background-color: rgb(22, 19, 46);
+    color: white;
+  }
+.hof{
+  display: flex;
+}
+
+  /* POP UP FORM STYLE*/
+  /* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 550px;
+
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .my-btn{
+    width: 125px;
+    border: none;
+  }
+  .btn{
+    margin-left: 80px;
+  }
+ 
+  /*Media queries*/
+  @media screen and (max-width: 600px) {
+   p{
+    max-width: 500px;
+   }
+   h3{
+    max-width: 500px;
+   }
+   button{
+    display: block;
+    
+   }
+   .hof{
+    margin-left: 20px;
+    
+   }
+   .container-1,.container-2{
+    display: block;
+   }
+   .container{
+    display: block;
+   }
+   #cmg-soon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+   }
+  img{
+    width: 300px;
+  }
+  .rating{
+    margin-left: 260px;
+  }
+ 
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+    /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  }
+  

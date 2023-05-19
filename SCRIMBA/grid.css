@@ -1,0 +1,29 @@
+
+.my-grid{
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 5px;
+}
+.one{
+    background-color: lightblue;
+}
+.two{
+    background-color: coral;
+}
+.three{
+    background-color: lightgoldenrodyellow;
+}
+.four{
+    background-color: lightseagreen;
+}
+.five{
+    background-color: lightgreen;
+}
+.six{
+    background-color: lightpink;
+}

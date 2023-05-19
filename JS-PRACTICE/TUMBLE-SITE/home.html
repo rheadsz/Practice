@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO TUMBLE</title>
+    <link rel="stylesheet" href="home.css">
+    
+    
+</head>
+<body onload="onload()">
+    
+
+    <div>
+        <button type="button" onclick="darkmode()">DARK MODE</button>
+    </div>
+    <div class="container w3-animate-left">
+        <h2>WELCOME TO TUMBLE!!</h2>
+        <h4>REGISTER TO PLAY</h4>
+        <button type="submit"><a href="register.html">REGISTER</a></button>
+
+    </div>
+    <script>
+        //function myFunction() {
+           //var element = document.body;
+           //element.classList.toggle("dark-mode");
+        //}
+        
+//DARK MODE
+    
+  function darkmode() {
+    const wasDarkmode = localStorage.getItem('darkmode') === 'true';
+    localStorage.setItem('darkmode', !wasDarkmode);
+    const element = document.body;
+    element.classList.toggle('dark-mode', !wasDarkmode);
+  }
+
+  function onload() {
+    document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
+    localStorage.setItem("theme", "dark-mode");
+    
+}
+
+    </script>
+    
+</body>
+</html>

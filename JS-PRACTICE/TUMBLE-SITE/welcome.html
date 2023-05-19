@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to tumble</title>
+    <link rel="stylesheet" href="welcome.css">
+    <script type="text/javascript" src="result.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Pro:wght@500&family=Fredoka+One&display=swap" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body onload="onload()">
+    <div class="hof" id="hof">
+        <button class="btn btn-primary" id="top-btn-1"><a href="hof.html" style="color: white">HALL OF FAME</a></button>
+        <button class="btn btn-primary" id="top-btn-2" style="color: white;" onclick="openForm()">FEEDBACK</button>
+
+    </div>
+
+    <div class="heading">
+        <h1 id="wlc"> Welcome &nbsp;<span id="result-uname"></span></h1>
+    </div>
+
+    <div class="container-1" id="container-1">
+       <img src='rps.jpg'/>
+       <div class="content"><h3 id="rps">ROCK, PAPER, SCISSOR</h3>
+       <p>This is a fun game to play. It is a hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V).</p>
+       <button class="btn btn-primary"> <a href="rps.html" style="color: white;">PLAY</a></button>
+       <!--<button class="btn btn-primary" style="color: white;" onclick="openForm()">FEEDBACK</button>-->
+       <br>
+       <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        </div>
+        </div>
+    </div>
+
+    <div class="container-2" id="container-2">
+        <img src='blackjack.jpg'/>
+        <div class="content"><h3 id="bj">BLACK JACK</h3>
+        <p>This is a fun game to play. Blackjack is a casino banking game. It is the most widely played casino banking game in the world. It uses decks of 52 cards and descends from a global family of casino banking games known as Twenty-One. This family of card games also includes the European games Vingt-et-Un and Pontoon, and the Russian game Ochko</p>
+        <button class="btn btn-primary"><a href="blackjack.html" style="color: white;">PLAY</a></button>
+        <br>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>   
+    </div>
+
+    <div class="container-2" id="container-3">
+        <img src='fruit_ninja.jpg'/>
+        <div class="content"><h3 id="fn">FRUIT NINJA</h3>
+        <p>This is a fun game to play.</p>
+        <button class="btn btn-primary">PURCHASE</button>
+        <br>
+       <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        </div>
+        </div>   
+    </div>
+
+
+<!--Coming soon section-->
+<h2>Coming soon <i class="fa fa-spinner w3-spin" style="font-size:50px"></i></h2>
+<div class="container" id="container">
+     
+    <img id="cmg-soon" src="nfs.jpg">
+    <div class="content"><h3 id="cmg-soon-title"></h3>
+    <p id="cmg-soon-desc"></p>
+
+       
+
+</div>
+
+</div>
+
+
+
+
+<!--POP up form:--> 
+<div class="form-popup" id="my-form">
+    <form action="https://sheetdb.io/api/v1/yzcco60n3gflq" method="post" class="form-container" id="myForm">
+      <h1 class="ff">FEEDBACK FORM</h1>
+  
+      <label for="my-uname"><b>Username</b></label><br>
+      <!--<button id="my-uname" class="my-btn"></button><br><br>-->
+      <input type="text" name="data[my-uname]" id="my-uname" >
+
+      <label for="game"><b>GAME</b></label>
+      <input type="text" name="data[game]" id="game">
+    
+  
+      <label for="cmt"><b>Comment</b></label>
+      <input type="text" name="data[cmt]" id="cmt">
+  
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="button" class="btn btn-primary" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+    <script src="welcome.js"></script>
+</body>
+
+</html>

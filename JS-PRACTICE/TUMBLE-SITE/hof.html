@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall of fame</title>
+    <link rel="stylesheet" href="hof.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Pro:wght@500&family=Fredoka+One&display=swap" rel="stylesheet">
+    
+</head>
+<body onload="onload()">
+    <h1 class="title" id="title">HALL &nbsp; OF &nbsp; FAME</h2>
+    
+        <div class="container" id="container">
+            <h2>Add items</h2>
+            
+            <form id="form">
+              <div class="form-group row">
+                <div class="col-xs-3">
+                  <label for="ex1">Name</label>
+                  <input class="form-control" id="name" type="text" required>
+                </div>
+                <div class="col-xs-3">
+                  <label for="ex2">Country</label>
+                  <input class="form-control" id="country" type="text">
+                </div>
+                <div class="col-xs-3">
+                  <label for="ex3">Points</label>
+                  <input class="form-control" id="points" type="text">
+                </div>
+              </div>
+            </form>
+            <button class="btn btn-primary sub-btn1" style="margin-bottom: 10px" onclick="Submit()">SUBMIT</button>
+            <button class="btn btn-primary sub-btn2"  style="margin-bottom: 10px" onclick="clearItems()">RESET</button>
+        </div>
+
+        <div id="msg">Some text some message..</div>
+
+        <div class="my-table">          
+            <table class="table table-bordered" id="hof-table">
+              <thead>
+                <tr>
+                  <th>NAME</th>
+                  <th>COUNTRY</th>
+                  <th>POINTS</th>
+                  <th>ACTION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rhea</td>
+                  <td>India</td>
+                  <td>3200</td>
+                  <td>
+                    <button class="btn btn-primary" onclick="edit(this)" >EDIT</button>
+                    <button class="btn btn-primary"  onclick="deletee(this)">DELETE</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tanya</td>
+                  <td>USA</td>
+                  <td>600</td>
+                  <td>
+                    <button class="btn btn-primary"  onclick="edit(this)">EDIT</button>
+                    <button class="btn btn-primary"  onclick="deletee(this)">DELETE</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Kelvin</td>
+                  <td>UAE</td>
+                  <td>100</td>
+                  <td>
+                    <button class="btn btn-primary"  onclick="edit(this)">EDIT</button>
+                    <button class="btn btn-primary"  onclick="deletee(this)">DELETE</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+    
+</body>
+<script src="hof.js"></script>
+</html>

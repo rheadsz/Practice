@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    background-color: blue;
+    color: aliceblue;    
+    width: 100%;
+   position: fixed;
+}
+
+p{
+    margin-left: 35px;
+    font-size: 22px ;
+    font-family: sans-serif ;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+  
+   border: 2px solid rgb(44, 123, 184);
+}
+.about{
+    background-color: rgb(141, 197, 222);
+    color:rgb(7, 37, 52);
+    width: 500px;
+    height: 100px;
+    float: right;
+  
+    top: 210px;
+    left: 300px;
+}
+.intro{
+    font-size: 14px;
+}
+div.education {
+    position: relative;
+    width: 1090px;
+    height: 150px;
+    border: 3px solid #73AD21;
+    margin: auto;
+  } 
+
+  div.eng {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    border: 3px solid rgb(236, 190, 232);;
+    text-align: center;
+    color: black;
+    background-color: rgb(236, 190, 232);
+  }  
+
+  div.clg {
+    position: absolute;
+    top: 30px;
+    left: 380px;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    border: 3px solid rgb(251, 146, 241);;
+    text-align: center;
+    color: black;
+    background-color: rgb(251, 146, 241);
+  }  
+  div.scl {
+    position: absolute;
+    top: 30px;
+    right: 9px;
+    width: 300px;
+    height: 100px;
+    border: 3px solid rgb(214, 120, 235);;
+    text-align: center;
+    color: black;
+    background-color: rgb(214, 120, 235);
+  }  
+

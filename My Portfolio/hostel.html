@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhea Dsouza Portfolio - Hostel Management System</title>
+    <!--This link(Normalize.css) helps to visalize the elements same way in all browsers-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!--Link to font awesome (where we can choose any font or icons of our choice)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <!--Link for font style-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <!--Linking my css sheet here-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+
+</head>
+<body>
+
+    <!-- The header of my portfolio section (logo + hamburger nav) -->
+    <header>
+        <div class="logo">
+            <img src="images/rheaLogo.jpg" alt="rhea-logo">
+        </div>
+        <!--aria-label can be used in cases where text that could label the element is not visible. -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html#exp" class="nav__link">My Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- My introduction section -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            <strong style="font-size: 28px;">HOSTEL MANAGEMENT SYSTEM</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A DBMS PROJECT</p>
+        <img src="images/hostel.jpg" alt="a picture of hostel" class="intro__img" style="border-radius: 0px;">
+    </section>
+
+    <!--THE INFORMATION SECTION-->
+    <div class="portfolio-item-individual">
+        <p>Hostel management system is a desktop application for managing hostel records. Hostel management
+            system helps hostel admin in managing records of the hostel in an efficient manner. This project manages records of the students, hostel rooms and other things related to the hostel.
+            The manual way of hostel record management it is very difficult to find the record of all students their
+            mess bills and the information of about old students who had left the hostel many years before. We
+            design Hostel management system to facilitate the hostel admin in the hostel management. 
+            Hostel management project is a very user friendly software that is why they do not require specially 
+            trained person to handle the software. Hostel management project can automatically calculates all the 
+            bills and gives proper notifications wherever it is required.
+            
+           
+        </p>
+        <h5 style="margin-left: 280px;">ER DIAGRAM OF THE APPLICATION</h2>
+        <img src="images/dbms-diag.jpg" alt="Flow diagram of health care app" style="margin-left: 100px; margin-bottom: 15px;">
+        
+        <div class="btn-view">
+        <button type="button" class="btn btn-primary" style="background-color:#303030;color:#16e0bd;"><a href="docs/PROJECT HMS.pdf" style="color:#16e0bd; text-decoration: none;">VIEW REPORT</a></button>
+        </div>
+        
+    </div>
+
+   
+
+     
+
+    
+
+       <!-- Footer (mail id + social apps info)-->
+       <footer class="footer">
+        <a href="mailto:rheabdsouza@gmail.com" class="footer__link">rheabdsouza@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/rheads0uza/"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/rhea-dsouza-9164ab167/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://about.me/rhea_dsouza"><i class="fa fa-user"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/rheadsz"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+</html>
